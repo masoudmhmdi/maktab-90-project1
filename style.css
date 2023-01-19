@@ -87,6 +87,13 @@ li{
   display: flex;
   gap: 10px;
 }
+
+.save-li:hover{
+  color: blue;
+  cursor: pointer;
+}
+
+
 .container{
   grid-column: 2/4;
   grid-row: 2/4;
@@ -152,3 +159,4 @@ td{
 tbody tr:nth-child(odd){
   background-color: #a9a9a9;
 }
+
